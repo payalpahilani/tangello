@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: ['http://localhost:3000'], // Update this to your frontend URL when deploying
+  origin: ['http://localhost:3000', 'https://tangello-mobile-backend.herokuapp.com'], // Update this to your frontend URL when deploying
   methods: ['GET', 'POST'],
   credentials: true // Allow cookies and sessions
 }));
