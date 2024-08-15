@@ -1,0 +1,112 @@
+.housing-support-page {
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    padding: 20px;
+    background: linear-gradient(180deg, #0A9CE4 10%, #B8D6DF 100%);
+}
+
+.header-section {
+    text-align: center;
+    background: linear-gradient(180deg, #00537A 0%, #0098E0 50%);
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.header-section h1 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.header-section p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.why-housing-matters, .tangello-support, .cta-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.05);
+    color: #FF6633; /* Giants Orange */
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.why-housing-matters p, .tangello-support p, .cta-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+b {
+    color: #0AB1E7; /* Process Cyan */
+    
+    font-weight: bold;
+}
+
+
+.on-campus-housing, .off-campus-housing, .emergency-support {
+    margin-bottom: 40px;
+}
+
+.housing-description {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.housing-description h3 {
+    color: #00537A; /* Indigo Dye */
+    margin-bottom: 10px;
+}
+
+.housing-description p {
+    font-size: 16px;
+    color: #555;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(180deg, #00537A 0%, #0098E0 50%);
+    border-radius: 15px;
+}
+
+.cta-section h2 {
+    color: #fff;
+}
+
+.cta-section p {
+    color: #fff;
+}
+
+.emergency-support {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.05);
+    color: #FF6633; /* Giants Orange */
+}
+
+.off-campus-housing h2, .on-campus-housing h2{
+    color: #fff;
+}
+.emergency-support p{
+    color: #993333;
+}

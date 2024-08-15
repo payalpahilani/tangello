@@ -1,0 +1,37 @@
+.footer {
+    padding-top: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .footer .copyright {
+    font-size: 14px;
+    color: #cccccc;
+    margin: 5px 0;
+  }
+  
+  .footer .rights {
+    font-size: 14px;
+    color: #999999;
+    margin: 5px 0;
+  }
+  
+  .footer .policies {
+    font-size: 14px;
+    color: #555555;
+    margin: 5px 0;
+  }
+  
+  .footer .policies a {
+    color: #555555;
+    text-decoration: none;
+  }
+  
+  .footer .policies a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+  

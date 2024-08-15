@@ -1,0 +1,91 @@
+  
+  .hero {
+    text-align: center;
+    background: linear-gradient(180deg, #00537A 0%, #0098E0 100%);
+    border: 1px solid #FF6633;
+    color: #fff;
+    padding: 40px 23px;
+    border-radius: 10px;
+    margin: 25px;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+  
+  .hero h1 {
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .header-image {
+    width: 85%;
+    padding-top: 10px;
+    max-height: 280px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.event-h3{
+  display: flex;
+  color: #FF6633;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: -100px;
+  margin-bottom: 10px;
+  padding: 240px 0px 0px 30px;
+  align-items: flex-start;
+}
+
+
+.events {
+    display: flex;
+    overflow-x: auto; 
+    padding: 20px;
+    gap: 10px; 
+    background: transparent;
+    position: relative;
+    z-index: 0;
+}
+
+.event-card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 200px;
+    min-width: 200px; 
+    overflow: hidden;
+    flex-shrink: 0; 
+}
+
+.event-thumbnail {
+    height: 140px;
+    background-size: cover;
+    position: relative;
+}
+
+.event-details h4 {
+    font-size: 18px;
+    font-weight: 500;
+    width: 180px;
+    color: #993333;
+}
+
+.event-details {
+    padding: 0 10px 0 10px;
+    align-items: flex-start;
+}
+
+.event-details p {
+    margin: 10px 0;
+}
+
+
+.icon-group {
+    font-size: 24px; 
+}

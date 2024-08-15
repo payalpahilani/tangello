@@ -1,0 +1,70 @@
+.near-you-zone {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff; 
+  font-family: 'Nunito', sans-serif; 
+}
+
+.overview-container {
+  margin-top: 20px;
+  position: relative; 
+  overflow: hidden; 
+  border-radius: 20px 0 20px 20px;
+}
+
+.overview-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.description {
+  color: #993333; 
+  margin-top: 20px;
+  padding: 0 20px; 
+}
+
+.options-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.option-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  align-items: center;
+}
+
+.option-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.explore-button {
+  background-color: #FF6633; 
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin-top: 15px;
+}
+
+
+.option-card h2, .option-card p {
+  margin: 5px 0;
+}
+
+.option-card h2{
+  color: #0AB1E7;
+}

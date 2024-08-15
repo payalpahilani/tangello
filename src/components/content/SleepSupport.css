@@ -1,0 +1,83 @@
+.sleep-relaxation-page {
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    padding: 20px;
+    background: linear-gradient(180deg, #0A9CE4 10%, #B8D6DF 100%);
+}
+
+.header-section {
+    text-align: center;
+    background: linear-gradient(180deg, #00537A 0%, #0098E0 50%);
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.header-section h1 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.header-section p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.why-sleep-relaxation-matters, .tangello-support, .cta-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.05);
+    color: #FF6633; /* Giants Orange */
+}
+
+.why-sleep-relaxation-matters p {
+    color: #555;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.resources-section {
+    margin-bottom: 40px;
+}
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.resource-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.resource-card h3 {
+    color: #00537A; /* Indigo Dye */
+    margin-bottom: 10px;
+}
+
+.resource-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(180deg, #00537A 0%, #0098E0 50%);
+    border-radius: 15px;
+}
+
+.cta-section h2 {
+    color: #fff;
+}
+
+.cta-section p {
+    color: #fff;
+}

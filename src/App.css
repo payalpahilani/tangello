@@ -1,6 +1,16 @@
+
 .App {
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
+.content {
+  flex: 1;
+  padding-bottom: 20px; /* Ensure there's space for the footer */
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -27,6 +37,17 @@
 .App-link {
   color: #61dafb;
 }
+
+iframe.chatbase-iframe {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 350px;
+  height: 500px;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
 
 @keyframes App-logo-spin {
   from {

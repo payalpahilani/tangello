@@ -1,0 +1,99 @@
+.about-page {
+  font-family: 'Nunito', sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+.about-header {
+  text-align: center;
+  background-size: cover;
+  background-image: url('/public/assets/Main.png');
+  background-position: center;
+  padding: 60px;
+  border-radius: 5px;
+  margin-bottom: 40px; 
+  color: white;
+}
+
+.about-header h1 {
+  color: #ffffff; 
+  font-size: 36px; 
+  letter-spacing: 1px;
+  max-width: 600px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.about-section, .how-it-works {
+  margin: 40px 0;
+}
+
+
+.about-video {
+  max-width: 800px;
+  margin: 40px auto; 
+  padding: 30px;
+  border-radius: 10px;  
+}
+
+.about-video video {
+  width: 100%;
+  border-radius: 10px;
+  border: 3px solid #00537A; 
+}
+
+.footer-links a {
+  color: #00537A;
+  padding: 0 15px; 
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+
+.about-page {
+  font-family: 'Nunito', sans-serif;
+  color: #333;
+  padding: 20px;
+  background: linear-gradient(to bottom, #f0f4f7, #fff);
+}
+
+.about-header {
+  text-align: center;
+  background-color: #F3E8DD;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.about-section, .how-it-works {
+  margin: 40px 0;
+}
+
+.how-it-works h2 {
+  color: #993333;
+  text-align: center;
+}
+
+
+.feature {
+  background: linear-gradient(180deg, #0A9CE4, #B8D6DF);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.feature p {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+

@@ -1,0 +1,64 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Nunito', sans-serif;
+}
+
+.register-card {
+  background: linear-gradient(180deg, #0A9CE4, #B8D6DF);
+  padding: 40px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 100%; 
+  max-width: 380px; 
+  margin: auto; 
+}
+
+.register-card h1, .register-card h3 {
+  color: #ffff; 
+  margin: 10px 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+}
+
+.register-card input {
+  width: 100%; 
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-card button {
+  width: 100%; 
+  padding: 10px 20px;
+  background-color: #FF6633 ;
+  color: #ffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register-card .checkbox-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.register-card input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.register-card label {
+  color: #ffff;
+  cursor: pointer;
+}

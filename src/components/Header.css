@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FF6633;
+  color: white;
+  padding: 10px 20px;
+}
+
+.header .logo img {
+  max-height: 65px;  
+  width: auto;       
+  margin-right: 10px; 
+}
+
+.header .hamburger-menu i {
+  font-size: 35px;   
+  cursor: pointer;
+  color: #00537A;
+}
+
+/* Font Awesome for icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');

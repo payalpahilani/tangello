@@ -1,0 +1,90 @@
+.community-support-page {
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    padding: 20px;
+    background: linear-gradient(180deg, #0A9CE4 10%, #B8D6DF 100%);
+}
+
+.header-section {
+    text-align: center;
+    background: linear-gradient(180deg, #00537A 0%, #0098E0 50%);
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.header-section h1 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.header-section p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.why-community-matters, .tangello-support, .cta-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.05);
+    color: #FF6633; /* Giants Orange */
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.why-community-matters p, .tangello-support p, .cta-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+b {
+    color: #0AB1E7; /* Process Cyan */
+    
+    font-weight: bold;
+}
+
+.available-services {
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    color: #00537A; /* Indigo Dye */
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(180deg, #00537A 0%, #0098E0 50%);
+    border-radius: 15px;
+}
+
+.cta-section h2 {
+    color: #fff;
+}
+
+.cta-section p {
+    color: #fff;
+}

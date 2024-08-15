@@ -1,0 +1,72 @@
+.nav-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+  }
+  
+  .nav-menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF6633;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .nav-menu-header .logo {
+      max-height: 65px;
+      margin: 0;
+    }
+  
+  .nav-menu-header .close-menu i {
+    font-size: 30px;
+    cursor: pointer;
+    color: #00537A;
+  }
+  
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  
+  .nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .nav-menu ul li {
+    margin: 15px 0;
+  }
+  
+  .nav-menu ul li a {
+    color: #00537A;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav-menu ul li a:hover {
+    color: #FF6633;
+  }
+  
+
+
+.nav-menu span {
+  color: #00537A;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+  
